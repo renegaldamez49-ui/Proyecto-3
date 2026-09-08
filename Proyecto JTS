@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Integración HTML, CSS y JS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class="tarjeta-perfil">
+    <h1>Página Web de: René Galdamez</h1>
+    <p><strong>Sección:</strong> 2.1 D.S. | <strong>Fecha:</strong> 1 de septiembre de 2026</p>
+    <hr>
+    <h2>Tabla de Materias</h2>
+    <table id="tabla-materias">
+        <tr><th>Materia</th><th>Estado</th></tr>
+        <tr><td>Informática</td><td>Aprobado</td></tr>
+    </table>
+    <div class="seccion-interactiva">
+        <h3>Control Interactivo (JavaScript)</h3>
+        <button id="btn-color" onclick="cambiarFondo()">Cambiar Color de Fondo</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
